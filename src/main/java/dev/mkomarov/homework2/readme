@@ -1,0 +1,13 @@
+Task 2 - unit tests.
+Given: two circles centers of which belong to axis X. (e.g. (x1; 0; r1); (x2; 0; r2))
+The user inputs positive integer numbers x1; r1; x2; r2 from the keyboard.
+It is necessary to determine the quantity of common points of the circles.
+
+Please, output the result as a text in the console
+    a) Perform the domain testing based on the meaning of the task.
+    Your decision form in the table. Select and write the values that you will use for your future tests.
+
+    b) Implement your java source to resolve the task. Numbers should be entered via console
+    Implement unit-tests for the all your java methods using unit tests frameworks (e.g.  TestNG, Junit)
+    and values selected through domain testing completed previously (1 (a)).
+    Include parametrized tests into scope of your unit-tests

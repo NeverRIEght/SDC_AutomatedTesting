@@ -1,0 +1,8 @@
+x1,r1,x2,r2,expected,explained
+0,2,10,3,0,Sum of radii is lower than distance between centers
+0,6,10,4,1,Sum of radii is the same as the distance between centers
+0,6,10,6,2,Circles have common area
+0,20,10,1,0,Circle are inside each other but there are no common points
+0,20,10,10,1,Circle are inside each other with the inner circle touching the outer
+0,6,0,4,0,"Circles have the same center coordinates, but different radii"
+0,3,0,3,2147483647,Circles are fully identical
