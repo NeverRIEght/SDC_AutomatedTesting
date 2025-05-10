@@ -17,6 +17,7 @@ public class IntersectionsFinderService {
         }
 
         if (circle1.getRadius() < 0 || circle2.getRadius() < 0) {
+            System.out.println("Radii cannot be <= zero, returning -1");
             return -1;
         }
 

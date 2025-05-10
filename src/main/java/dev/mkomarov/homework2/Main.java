@@ -19,11 +19,6 @@ class Main {
             System.out.print("Enter r1 (radius of the second circle):");
             int r2 = userInput.nextInt();
 
-            if (r1 <= 0 || r2 <= 0) {
-                System.out.println("Radii cannot be <= zero");
-                System.exit(1);
-            }
-
             int commonYValue = 0;
             Circle circle1 = new Circle(x1, commonYValue, r1);
             Circle circle2 = new Circle(x2, commonYValue, r2);
