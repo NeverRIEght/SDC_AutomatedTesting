@@ -9,11 +9,15 @@ public class IntersectionsFinderService {
      *
      * @param circle1 first circle
      * @param circle2 second circle
-     * @return number of intersection points
+     * @return number of intersection points. In case of an invalid data -1 is returned
      */
     public int getIntersectionCount(Circle circle1, Circle circle2) {
         if (circle1 == null || circle2 == null) {
             throw new NullPointerException("Circle can not be null");
+        }
+
+        if (circle1.getRadius() < 0 || circle2.getRadius() < 0) {
+            return -1;
         }
 
         // Circles are fully identical = infinite number of intersections
